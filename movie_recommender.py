@@ -144,10 +144,9 @@ class RecommenderSystem:
 
 if __name__ == "__main__":
 
-    
     user_id = int(input('Select user Id: '))
     
-
+    
     data_loader = DataLoader("ml-latest-small/ratings.csv", 
                              "ml-latest-small/movies.csv")
     
